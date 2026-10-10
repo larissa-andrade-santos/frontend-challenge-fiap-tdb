@@ -210,6 +210,18 @@ article {
     color: #ffffff;
     text-align: center;
 }
+
+.verde{
+    color: #008000;
+}
+
+.amarelo {
+    color: #ffd700;
+}
+
+.vermelho {
+    color: #dc143c;
+}
  
 footer {
     padding: 30px 6%;
