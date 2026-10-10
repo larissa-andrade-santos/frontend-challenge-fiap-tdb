@@ -28,6 +28,8 @@ frontend-challenge-fiap-tdb/
 ├── integrantes.html
 ├── sobre.html
 ├── faq.html
+├── farol.html
+├── funcionamento-farol.html
 ├── css
   ├── style.css
 ├── imagens
