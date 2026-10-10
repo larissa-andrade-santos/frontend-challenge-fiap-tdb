@@ -13,6 +13,8 @@ Projeto foi desenvolvido como atividade da disciplina de Front-End da FIAP, com 
 - Página "Sobre" explicando os projetos da empresa.
 - Página de integrantes, apresentando os alunos que desenvolveram o projeto.
 - Página "FAQ" com as dúvidas frequentes dos usuários.
+- Página "Farol" mostrando a solução proposta no projeto
+- Página de explicação de como funciona o farol
  
 ##  Tecnologias
  
@@ -28,6 +30,8 @@ frontend-challenge-fiap-tdb/
 ├── integrantes.html
 ├── sobre.html
 ├── faq.html
+├── farol.html
+├── funcionamento-farol.html
 ├── css
   ├── style.css
 ├── imagens
@@ -36,8 +40,16 @@ frontend-challenge-fiap-tdb/
 ```
  
 ## Autores
- 
-- **Larissa Andrade** - [LinkedIn](https://linkedin.com/in/larissaandradesant) | GitHub: `github.com/lariandradee`
-- **Guilherme Oliveira** - [LinkedIn](https://www.linkedin.com/in/guilherme-oliveira-gomes-4b0735394/) | GitHub: `github.com/guioliveirag`
-- **Henrique Coelho** - [LinkedIn](https://www.linkedin.com/in/henrique-fernandes-coelho-824665344/) | GitHub: `github.com/henrique-fernandes-coelho1`
-- **Rafael Santos** - [LinkedIn](https://www.linkedin.com/in/rafaelosantosdev/) | GitHub: `github.com/rafaosfiap`
+  **Turma:** 1TDSPS
+- **Larissa Andrade** - RM574919 | [LinkedIn](https://linkedin.com/in/larissaandradesant) | GitHub: `github.com/lariandradee`
+- **Guilherme Oliveira** - RM575725 | [LinkedIn](https://www.linkedin.com/in/guilherme-oliveira-gomes-4b0735394/) | GitHub: `github.com/guioliveirag`
+- **Henrique Coelho** - RM574871 | [LinkedIn](https://www.linkedin.com/in/henrique-fernandes-coelho-824665344/) | GitHub: `github.com/henrique-fernandes-coelho1`
+- **Rafael Santos** - RM575758 | [LinkedIn](https://www.linkedin.com/in/rafaelosantosdev/) | GitHub: `github.com/rafaosfiap`
+
+## Contato
+
+- **Larissa Andrade** - E-mail: `rm574919@fiap.com.br`
+- **Guilherme Oliveira** - E-mail: `rm575725@fiap.com.br`
+- **Henrique Coelho** - E-mail: `rm574871@fiap.com.br`
+- **Rafael Santos** - E-mail: `rm575758@fiap.com.br`
+
