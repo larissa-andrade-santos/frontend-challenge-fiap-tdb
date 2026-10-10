@@ -4,7 +4,7 @@ Projeto foi desenvolvido como atividade da disciplina de Front-End da FIAP, com 
  
 ## 🌐 Acesse
  
- 
+https://github.com/larissa-andrade-santos/frontend-challenge-fiap-tdb
  
 ## Funcionalidades
  
