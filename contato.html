@@ -32,8 +32,52 @@
             <section>
                 <!--Link de email para que o usuário contatar a turma do bem-->
                 <h2>Como nos contatar</h2>
-                <p><strong>E-mail:</strong> contato@tdb.com</p>
+                <p>
+                    <strong>E-mail:</strong>
+                    <a href="mailto:turmadobem@tdb.org.br">turmadobem@tdb.org.br</a>
+                </p>
                 <p>Precisa de ajuda agora? Converse com nosso chatbot e encontre respostas de forma rápida e prática.</p>
+            </section>
+
+            <section>
+                <!-- Formulário para contato -->
+                <h2>Envie sua mensagem</h2>
+                <p>Preencha o formulário abaixo para entrar em contato com nossa equipe.</p>
+
+                <form class="formulario-contato">
+                    <div class="campo">
+                        <label for="nome">Nome completo:</label>
+                        <input type="text" id="nome" name="nome"
+                            placeholder="Digite seu nome" required>
+                    </div>
+
+                    <div class="campo">
+                        <label for="email">E-mail:</label>
+                        <input type="email" id="email" name="email"
+                            placeholder="Digite seu e-mail" required>
+                    </div>
+
+                    <div class="campo">
+                        <label for="assunto">Assunto:</label>
+                        <select id="assunto" name="assunto" required>
+                            <option value="">Selecione um assunto</option>
+                            <option value="doacao">Doações</option>
+                            <option value="empresa">Parcerias com empresas</option>
+                            <option value="atendimento">Atendimento</option>
+                            <option value="farol">Dúvidas sobre o Farol</option>
+                            <option value="outros">Outros assuntos</option>
+                        </select>
+                    </div>
+
+                    <div class="campo">
+                        <label for="mensagem">Mensagem:</label>
+                        <textarea id="mensagem" name="mensagem"
+                                placeholder="Escreva sua mensagem"
+                                required></textarea>
+                    </div>
+
+                    <button type="submit">Enviar mensagem</button>
+                </form>
             </section>
 
             <section>
