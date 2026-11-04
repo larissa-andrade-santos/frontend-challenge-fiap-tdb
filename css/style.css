@@ -1,9 +1,14 @@
 /* Estilo geral da página*/
- 
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
  
 body {
@@ -11,6 +16,10 @@ body {
     background-color: #ffffff;
     color: #243d32;
     font-size: 16px;
+}
+
+p, li, a {
+    overflow-wrap: break-word;
 }
  
 a {
@@ -30,7 +39,7 @@ h2 {
 }
  
 h3 {
-    font-size: 22px;
+    font-size: 24px;
 }
  
 p {
@@ -118,6 +127,10 @@ article {
     font-weight: bold;
     text-decoration: none;
 }
+
+.botao:hover {
+    transform: scale(1.05);
+}
  
 .link-sobre {
     display: inline-block;
@@ -132,17 +145,19 @@ article {
 }
  
 .blocos {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
     gap: 20px;
+    width: 100%;
     padding: 0;
     margin: 24px 0;
     list-style: none;
 }
  
 .blocos li {
-    width: 230px;
+    width: auto;
     max-width: 100%;
+    min-width: 0;
     margin: 0;
     padding: 24px;
     border-radius: 16px;
@@ -152,7 +167,11 @@ article {
 .blocos a {
     text-decoration: none;
 }
- 
+
+.blocos li:hover {
+    transform: scale(1.05);
+}
+
 .fundo {
     background-color: #e5f6ec;
 }
@@ -173,24 +192,29 @@ article {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 10px;
 }
  
 .bloco-integrante li {
-  width: 250px;
+  width: 260px;
   padding: 30px 20px;
   background: #f3f5f4;
   border-radius: 16px;
   text-align: center;
   transition: transform 0.2s, box-shadow 0.2s;
 }
+
+.bloco-integrante li:hover {
+    transform: scale(1.05);
+}
  
 .integrante {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 85px;
-    height: 80px;
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
     margin: 0 auto 20px;
     border-radius: 50%;
     background-color: #25ce75;
@@ -225,8 +249,129 @@ article {
  
 footer {
     padding: 30px 6%;
-    background-color: #f3f6f4;
     text-align: center;
     font-size: 14px;
-    background-color: #F28C0F   ;
+    background-color: #F28C0F;
+}
+
+/* Formulário da página de contato */
+.formulario-contato {
+    max-width: 600px;
+    margin: 20px 0;
+}
+
+.formulario-contato .campo {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.formulario-contato label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.formulario-contato button {
+    padding: 5px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Tablet */
+
+@media (max-width: 768px) {
+
+    h1 {
+        font-size: 32px;
+    }
+
+    h2 {
+        font-size: 26px;
+    }
+
+    h3 {
+        font-size: 22px;
+    }
+
+    p {
+        margin-bottom: 15px;
+    }
+
+    header {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px 4%;
+    }
+
+    nav ul {
+        justify-content: center;
+    }
+
+    .blocos {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .blocos li {
+        width: 100%;
+    }
+
+    .bloco-integrante {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 16px;
+    }
+
+    .bloco-integrante li {
+        width: 100%;
+    }
+}
+
+/* Celular */
+
+@media (max-width: 480px) {
+
+    h1 {
+        font-size: 26px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    h3 {
+        font-size: 19px;
+    }
+
+    p {
+        margin-bottom: 14px;
+    }
+
+    header {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px 2%;
+    }
+
+    nav ul {
+        align-items: center;
+    }
+
+    .blocos {
+        grid-template-columns: 1fr;
+    }
+
+    .blocos li {
+        width: 100%;
+    }
+
+    .bloco-integrante {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+
+    .bloco-integrante li {
+        width: 100%;
+    }
 }
